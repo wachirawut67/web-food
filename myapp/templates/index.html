@@ -1,0 +1,36 @@
+{% extends "_base.html" %}
+{% load static %}
+{% block title %} HOME {% endblock %}
+
+{% block content %}
+<div class="text-3xl underline mt-2 mb-10 font-Porm" style="text-align: center;"><p>อาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพตามวิถีภูมิปัญญาท้องถิ่นของจังหวัดอุบลราชธานี</p></div>
+
+<div class="flex flex-col md:flex-row p-4 space-y-4 md:space-y-0 md:space-x-4  ">
+    <div class="flex-1 p-6 ml-8 text-center" >
+    <br><div class=" flex justify-center "><img class="rounded-full" src="{% static 'images/card-01.jpg' %}"></div>
+    <br><p class="text-3xl font-Mitr" >เมี่ยงคำกลีบบัวหลวงแบบโบราณ</p>
+    <br><p class="font-Sara">มีคุณค่าทางสมุนไพรสูง เพราะมีคุณสมบัติในการบำรุงรักษาธาตุทั้ง 4 เพื่อให้สมดุลกัน กลีบบัวหลวง มีสีสันสวยงาม มีสรรพคุณบำรุงร่างกาย ห้ามเลือด มีเส้นใยอาหารสูง และกระตุ้นการขับถ่ายเป็นยาสมานแผล ช่วยบำรุงร่างกายบำรุงหัวใจ ลดความดันโลหิตสูง และลดระดับนํ้าตาลในเลือดได้</p>
+    <br><a href="/food1"><button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded font-Sara">
+        เรียนรู้เพิ่มเติม
+      </button></a>
+    </div>
+
+    <div class="flex-1 p-6  text-center " >
+        <br><div class=" flex justify-center"><img  class="rounded-full" src="{% static 'images/card-02.jpg' %}"></div>
+    <br><p class="text-3xl font-Mitr">ปลาส้มทรงเครื่องสมุนไพร</p>
+    <br><p class="font-Sara">ปลาที่นำมาเป็นปลาส้ม จะเลือกใช้ปลาบึกและปลาสวาย ซึ่งเป็นปลาธรรมชาติจากลุ่มแม่นํ้าโขง เนื่องจากปลาอุดลไปด้วยโปรตีนสูง ไขมันตํ่าประกอบกับจังหวัดอุบลราชธานีมีแม่นํ้าไหลผ่านถึง 3 สาย ได้แก่ แม่นํ้ามูล แม่นํ้าชี และแม่นั้าโขงจึงอุดมไปด้วยพันธุ์ปลานานาชนิด จึงได้รับสมญานามยกให้เป็นราชธานีแห่งปลาแซ่บหลาย</p>
+    <br><a href="/food2"><button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded font-Sara">
+        เรียนรู้เพิ่มเติม
+      </button></a>
+    </div>
+
+    <div class="flex-1 p-6 text-center" >
+        <br><div class=" flex justify-center"><img  class="rounded-full " src="{% static 'images/card-03.jpg' %}"></div>
+    <br><p class="text-3xl font-Mitr">หมี่กะทิ</p>
+    <br><p class="font-Sara">มีคุณค่าทางสมุนไพรสูงมีใยอาหารสูง มีวิตามินและเกลือแร่ที่สำคัญ อยู่ในส่วนประกอบของอาหารและในส่วนที่เป็นเครื่องเคียง อาหารพื้นเมือง อุดมด้วยพืชผักสมุนไพรมากมายหลายชนิดซึ่งมีสรรพคุณทางยาจากสารพฤกษเคมี จึงมีคุณสมบัติในการรักษาสุขภาพให้เป็นปกติกับปรับปรุงสุขภาพให้ดีขึ้นและลดอัตราเสี่ยงต่อการเกิดโรค</p>
+    <br><a href="/food3"><button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded font-Sara">
+        เรียนรู้เพิ่มเติม
+      </button></a>
+    </div>
+   
+{% endblock content %}
